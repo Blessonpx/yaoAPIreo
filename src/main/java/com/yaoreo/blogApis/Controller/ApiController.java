@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ApiController {
 	@GetMapping("/recipe")
     public String getRecipe() {
-        return "{ \"title\": \"Chocolate Chip Cookies\", \"ingredients\": [\"flour\", \"sugar\", \"chocolate chips\", \"butter\", \"eggs\"], \"instructions\": \"Mix ingredients, bake at 350°F for 12 minutes.\" }";
+        return "{ \"title\": \"Chocolate Chip Not So Cookies\", \"ingredients\": [\"flour\", \"sugar\", \"chocolate chips\", \"butter\", \"eggs\"], \"instructions\": \"Mix ingredients, bake at 350°F for 12 minutes.\" }";
     }
 }
